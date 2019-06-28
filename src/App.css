@@ -1,24 +1,44 @@
+body {
+  text-shadow: 1px 1px 1px #777;
+  position: fixed;
+  background: url(https://fbcd.co/product-lg/9119cc095cf128a73b50e5ca9767c8ca_resize.png)
+  no-repeat center center fixed;
+  background-size: cover;
+}
+
 h1 {
-  margin-left: 10px;
+  margin-left: 40%;
+  background: #318522AA;
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px #318522AA, -5px -5px 8px #318522AA, -5px 5px 8px #318522AA, 5px -5px 8px #318522AA;
 }
 
 .container {
-  margin: 10%;
+  margin: 8%;
+  margin-left: 11%;
   display: flex;
   flex-wrap: wrap;
-  padding: 1rem;
+  padding: 3rem;
+  height: 400px;
+  overflow: auto;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
 }
 
 .cards {
   height: 200px;
-  width: 300px;
-  background: #EEEEFA;
-  background-size: 140px 200px;
+  width: 420px;
+  background: #EEEEFADD;
+  background-size: 200px 200px;
   background-repeat: no-repeat;
   margin: 2%;
-  text-shadow: 2px 2px 2px white, -2px -2px 2px white, -2px 2px 2px white, 2px -2px 2px white;
   position: relative;
   border: 2px outset #EEEEFA;
+  border-radius: 10px;
+  box-shadow: 8px 8px 5px #444;
 }
 
 .pet-info {
@@ -28,7 +48,7 @@ h1 {
 
 #header {
   z-index: 100;
-  background: blue;
+  background: #518532AA;
   position: fixed;
   top: 0;
   height: 15%;

@@ -1,13 +1,15 @@
 import React from 'react';
 
-export default function CardContainer(props) {
+export default function Card(props) {
 
   return(
     <div className="cards" style={{ backgroundImage: `url(${props.picture})` }}>
       <div className="pet-info">
-        <p>{props.name}</p>
-        <p>{props.species}</p>
-        <p>{props.breed}</p>
+        <p>Name: {props.name}</p>
+        <p>Breed: {props.breed}</p>
+        <p>Age: {props.age}</p>
+        <p>Size: {props.size}</p>
+        <p>Location: {props.location}</p>
       </div>
     </div>
   )
