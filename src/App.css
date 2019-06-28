@@ -15,13 +15,15 @@ h1 {
 }
 
 .container {
-  margin: 8%;
-  margin-left: 11%;
+  margin: 7.5%;
+  margin-top: 7.7%;
   display: flex;
   flex-wrap: wrap;
   padding: 3rem;
-  height: 400px;
+  height: 420px;
   overflow: auto;
+  border-bottom: 3px solid #77777755;
+  border-radius: 10px;
 }
 
 .container::-webkit-scrollbar {
@@ -30,15 +32,15 @@ h1 {
 
 .cards {
   height: 200px;
-  width: 420px;
+  width: 450px;
   background: #EEEEFADD;
   background-size: 200px 200px;
   background-repeat: no-repeat;
   margin: 2%;
   position: relative;
-  border: 2px outset #EEEEFA;
+  border: 2px solid #518532AA;
   border-radius: 10px;
-  box-shadow: 8px 8px 5px #444;
+  box-shadow: 8px 8px 5px #444A;
 }
 
 .pet-info {
@@ -53,5 +55,5 @@ h1 {
   top: 0;
   height: 15%;
   width: 100%;
-  border-bottom: 2px outset #DDF;
+  border-bottom: 1px outset #51853255;
 }
